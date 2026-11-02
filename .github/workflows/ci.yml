@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   phpstan:
-    name: PHPStan max (Axolotl-PM 5.49.1)
+    name: PHPStan max (Axolotl-PM 5.51.1)
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
@@ -44,11 +44,11 @@ jobs:
           install-path: "./bin"
           pm-version-major: "5"
 
-      - name: Check out Axolotl-PM 5.49.1 source
+      - name: Check out Axolotl-PM 5.51.1 source
         uses: actions/checkout@v7.0.1
         with:
           repository: axolotl-pm/PocketMine-MP
-          ref: dfe0d07e48a9e8d5a4a242fa43ff1cd3b743a955
+          ref: e881fc1bc1c401545baf6bd1f824e41ff3f57bd1
           path: .devtools-server
           persist-credentials: false
 
@@ -60,7 +60,7 @@ jobs:
           cp -R src "$RUNNER_TEMP/pmforms-virions/pmforms/src"
 
       - name: Analyze and build the consumer with DevTools v1.0.15
-        uses: NhanAZ/DevTools@8d13a75aaf4f330fdbd93737d58be9cacc41e262
+        uses: NhanAZ/DevTools@v2
         with:
           project: examples/DevToolsConsumer
           virions: ${{ runner.temp }}/pmforms-virions
