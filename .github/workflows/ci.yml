@@ -23,7 +23,7 @@ jobs:
           pm-version-major: "5"
 
       - name: Install dependencies
-        run: composer install --prefer-dist --no-interaction --no-progress
+        run: composer install --prefer-dist --no-interaction --no-progress --ignore-platform-req=ext-webrtc
 
       - name: Validate Composer metadata
         run: composer validate --strict
