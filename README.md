@@ -1,6 +1,14 @@
 # pmforms
 
-Form API library for PocketMine-MP and Axolotl-PM plugins. This repository is a fork of [dktapps-pm-pl/pmforms](https://github.com/dktapps-pm-pl/pmforms), tracking its latest upstream code and retaining the original `dktapps\pmforms` namespace.
+Form API library for PocketMine-MP plugins
+
+[![CI](https://github.com/NhanAZ-Libraries/pmforms/actions/workflows/ci.yml/badge.svg)](https://github.com/NhanAZ-Libraries/pmforms/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/NhanAZ-Libraries/pmforms)](https://github.com/NhanAZ-Libraries/pmforms/blob/master/LICENSE)
+[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+
+## Overview
+
+This library targets the PocketMine-MP and Axolotl-PM API 5 ecosystem and is maintained under [NhanAZ-Libraries](https://github.com/NhanAZ-Libraries).
 
 ## Compatibility
 
