@@ -60,3 +60,7 @@ composer analyse
 ```
 
 PHPStan runs at level `max` against Axolotl-PM 5.51.1.
+
+## Attribution
+
+The original author is `dktapps`. AxolotlBucketLabs maintains this fork for Axolotl-PM API 5.

@@ -2,5 +2,5 @@ name: pmforms
 version: "2.3.1"
 antigen: dktapps\pmforms
 api: "5.0.0"
-authors: [AxolotlBucketLabs, dktapps]
+authors: [dktapps]
 description: Create basic UIs in Minecraft Bedrock
