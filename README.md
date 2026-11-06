@@ -2,8 +2,8 @@
 
 Form API library for PocketMine-MP plugins
 
-[![CI](https://github.com/NhanAZ-Libraries/pmforms/actions/workflows/ci.yml/badge.svg)](https://github.com/NhanAZ-Libraries/pmforms/actions/workflows/ci.yml)
-[![License](https://img.shields.io/github/license/NhanAZ-Libraries/pmforms)](https://github.com/NhanAZ-Libraries/pmforms/blob/master/LICENSE)
+[![CI](https://github.com/AxolotlBucketLabs/pmforms/actions/workflows/ci.yml/badge.svg)](https://github.com/AxolotlBucketLabs/pmforms/actions/workflows/ci.yml)
+[![License](https://img.shields.io/github/license/AxolotlBucketLabs/pmforms)](https://github.com/AxolotlBucketLabs/pmforms/blob/master/LICENSE)
 [![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
 
 
@@ -21,7 +21,7 @@ With Poggit, add the virion to `.poggit.yml`:
 projects:
   YourPlugin:
     libs:
-      - src: NhanAZ-Libraries/pmforms/pmforms
+      - src: AxolotlBucketLabs/pmforms/pmforms
         version: ^2.3.1
 ```
 
@@ -41,7 +41,7 @@ You can also target online players by name, for example `/form custom Steve`. Th
 
 ## Develop with DevTools
 
-The root `virion.yml` lets Axolotl-PM [DevTools](https://github.com/NhanAZ/DevTools) load this checkout as a shared development virion. Put the repository at `virions/pmforms/`, then declare it in the consuming plugin's `devtools.yml`:
+The root `virion.yml` lets Axolotl-PM [DevTools](https://github.com/AxolotlBucketLabs/DevTools) load this checkout as a shared development virion. Put the repository at `virions/pmforms/`, then declare it in the consuming plugin's `devtools.yml`:
 
 ```yaml
 virions:
