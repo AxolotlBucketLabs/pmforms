@@ -15,15 +15,15 @@ Form API library for PocketMine-MP plugins
 
 ## Include in a plugin
 
-With Poggit, add the virion to `.poggit.yml`:
+Use the repository as a local development virion with DevTools. Put the checkout in `virions/pmforms/` and declare it in the consuming plugin's `devtools.yml`:
 
 ```yaml
-projects:
-  YourPlugin:
-    libs:
-      - src: AxolotlBucketLabs/pmforms/pmforms
-        version: ^2.3.1
+virions:
+  - name: pmforms
+    version: ^2.3.1
 ```
+
+DevTools uses the shared source during development and injects the virion into the consumer PHAR during the build. The production server does not need DevTools installed for the resulting plugin.
 
 ## Demo plugin
 
@@ -59,4 +59,4 @@ composer validate --strict
 composer analyse
 ```
 
-PHPStan runs at `max` against Axolotl-PM 5.51.1.
+PHPStan runs at level `max` against Axolotl-PM 5.51.1.

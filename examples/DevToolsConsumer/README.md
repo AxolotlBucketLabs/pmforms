@@ -10,4 +10,4 @@ In game, run one of:
 
 The form response and close callbacks show how to handle results. To send a form to another online player, append their name, for example `/form menu Steve`.
 
-This demo is based on the upstream [pmforms-demo](https://github.com/dktapps-pm-pl/pmforms-demo), which is released under the Unlicense; see [LICENSE](LICENSE).
+This demo is based on the upstream [pmforms-demo](https://github.com/dktapps-pm-pl/pmforms-demo), which is released under the Unlicense. See [LICENSE](LICENSE).
