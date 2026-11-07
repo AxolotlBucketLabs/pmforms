@@ -4,7 +4,7 @@ Form API library for PocketMine-MP plugins
 
 [![CI](https://github.com/AxolotlBucketLabs/pmforms/actions/workflows/ci.yml/badge.svg)](https://github.com/AxolotlBucketLabs/pmforms/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/AxolotlBucketLabs/pmforms)](https://github.com/AxolotlBucketLabs/pmforms/blob/master/LICENSE)
-[![Discord](https://img.shields.io/discord/986553214889517088?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/j2X83ujT6c)
+[![Discord](https://img.shields.io/discord/1568295845374206052?label=Discord&logo=discord&logoColor=white&color=5865F2)](https://discord.gg/Pk4FrNvHnM)
 
 
 ## Compatibility
