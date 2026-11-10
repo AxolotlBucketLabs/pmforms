@@ -60,7 +60,7 @@ jobs:
           cp -R src "$RUNNER_TEMP/pmforms-virions/pmforms/src"
 
       - name: Analyze and build the consumer with DevTools v4.0.0
-        uses: AxolotlBucketLabs/DevTools@v4.0.0 # v4.0.0
+        uses: AxolotlBucketLabs/DevTools@latest # v4.0.0
         with:
           project: examples/DevToolsConsumer
           virions: ${{ runner.temp }}/pmforms-virions
